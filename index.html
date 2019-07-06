@@ -39,11 +39,12 @@
         // Adding a data-attribute with a value of the movie at index i
         a.attr("animal-data", topic[i]);
         // Providing the button's text with a value of the movie at index i
-        a.text(topic[i]));
+        a.text(topic[i]);
         // Adding the button to the HTML
         $("#buttons-view").append(a);
       }
     }
+    renderButtons();
 
 
     // Adding click event listen listener to all buttons
